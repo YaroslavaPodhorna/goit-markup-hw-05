@@ -704,8 +704,8 @@ a {
   fill: #4d5ae5;
 }
 
-.modal-wrapper {
-  margin-bottom: 8px;
+.modal-wrapper-comment {
+  margin-bottom: 16px;
 }
 .modal-icon {
   position: absolute;
@@ -777,10 +777,9 @@ a {
   background-color: #404bbf;
   border: none;
 }
-
-/* .form-checkbox:checked + .checkbox-label .checkbox-icon > .checkbox-custom { */
-fill: #f4f4fd;
-/* } */
+.form-checkbox:checked + .checkbox-label > .checkbox-custom {
+  fill: #f4f4fd;
+}
 .form-checkbox:checked + .checkbox-label > .checkbox-custom {
   border-radius: 2px;
   fill: #404bbf;
